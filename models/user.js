@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const url = `mongodb://team_hebe:teamhebe123@ds145283.mlab.com:45283/team_hebe_goal_tracker_app`
+const url = `mongodb://team_hebe:teamXXX123@ds1XXX3.mlab.com:45283/team_hebe_goal_tracker_app`
 console.log('connecting to', url)
 
 mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true, 'useFindAndModify': false, 'useCreateIndex': true})
